@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <p>Our store name is irfan-store.</p>
+        {% sections "header-group" %}
     </header>
     <main>
         {{ content_for_layout }}
     </main>
-    <footer><p>copyright 2025</p></footer>
+    <footer>{% sections "footer-group" %}</footer>
 </body>
 </html>
