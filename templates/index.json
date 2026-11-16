@@ -13,13 +13,19 @@
       "type": "header",
       "settings": {}
     },
-    "hero-banner": {
+    "hero_banner_PGQ84m": {
       "type": "hero-banner",
-      "settings": {}
+      "name": "hero-banner",
+      "settings": {
+        "banner": "shopify://shop_images/hero-bg.png",
+        "heading_text": "This is your heading",
+        "description_text": "This is your description",
+        "full_width_section": true
+      }
     }
   },
   "order": [
     "main",
-    "hero-banner"
+    "hero_banner_PGQ84m"
   ]
 }
