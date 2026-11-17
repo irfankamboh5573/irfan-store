@@ -65,6 +65,17 @@ select {
     font: inherit;
 }
 
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+
+}
+
+
 /* Utility clases */
 
 .page-width {
@@ -82,4 +93,37 @@ select {
     .page-width{
         padding-inline: var(--page-padding-desktop);
     }
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.dropdown-list {
+    position: relative;
+}
+
+.dropdown-list > .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    /* padding: 20px; */
+    border: 1px solid black;
+    min-width: 12.5rem;
+
+}
+
+.dropdown-list-nested >.sub-menu--flyouts {
+    top: 0;
+    left: 100%;
+}
+
+.dropdown-list-nested > summary,
+.sub-menu a {
+    display: block;
+    padding: 10px 20px;
 }

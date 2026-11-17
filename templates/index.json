@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "header",
-      "settings": {}
-    },
     "hero_banner_PGQ84m": {
       "type": "hero-banner",
       "name": "hero-banner",
@@ -25,7 +21,6 @@
     }
   },
   "order": [
-    "main",
     "hero_banner_PGQ84m"
   ]
 }
