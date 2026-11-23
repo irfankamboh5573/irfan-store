@@ -43,7 +43,6 @@ canvas {
 
 img,
 svg {
-    width: 100%;
     height: auto;
 }
 
@@ -102,6 +101,17 @@ summary::-webkit-details-marker {
     gap: 10px;
 }
 
+.flex-between {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-block {
+    display: block;
+}
+
 .dropdown-list {
     position: relative;
 }
@@ -124,6 +134,5 @@ summary::-webkit-details-marker {
 
 .dropdown-list-nested > summary,
 .sub-menu a {
-    display: block;
     padding: 10px 20px;
 }
