@@ -18,9 +18,67 @@
         "description_text": "This is your description",
         "full_width_section": true
       }
+    },
+    "richtext_anC9yJ": {
+      "type": "richtext",
+      "blocks": {
+        "caption_GMUThw": {
+          "type": "caption",
+          "settings": {
+            "caption": "Caption-Eyebrow text"
+          }
+        },
+        "heading_ycYqWc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your awesome heading"
+          }
+        },
+        "sub_heading_9GqFcQ": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "Your awesome sub heading"
+          }
+        },
+        "description_WYHgF9": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Your Description of this sectio</p>"
+          }
+        },
+        "buttons_F6Fdgf": {
+          "type": "buttons",
+          "settings": {
+            "primary_btn_text": "Read more",
+            "secondary_btn_text": "Shop now",
+            "primary_btn_link": "shopify://collections/all",
+            "secondary_btn_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "caption_GMUThw",
+        "heading_ycYqWc",
+        "sub_heading_9GqFcQ",
+        "description_WYHgF9",
+        "buttons_F6Fdgf"
+      ],
+      "name": "Richtext",
+      "settings": {
+        "section_bg": "#b2b2b2",
+        "inner_bg": "#ffffff",
+        "button_bg_primary": "#000000",
+        "button_bg_secondary": "#4f1818",
+        "button_text_primary": "#ffffff",
+        "button_text_secondary": "#ffffff",
+        "padding_top": 3,
+        "padding_bottom": 3,
+        "padding_inner": 2
+      }
     }
   },
   "order": [
-    "hero_banner_PGQ84m"
+    "hero_banner_PGQ84m",
+    "richtext_anC9yJ"
   ]
 }

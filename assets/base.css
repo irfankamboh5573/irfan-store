@@ -136,3 +136,35 @@ summary::-webkit-details-marker {
 .sub-menu a {
     padding: 10px 20px;
 }
+
+/* RichText */
+.richtext {
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-bottom);
+    background-color: var(--section-bg);
+}
+.richtext_content {
+    padding: var(--padding-inner);
+    background-color: var(--inner-bg);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.primary-btn {
+    background-color: var(--button-bg-primary);
+    color: var(--button-text-primary);
+}
+.secondary-btn {
+    background-color: var(--button-bg-secondary);
+    color: var(--button-text-secondary);
+
+}
